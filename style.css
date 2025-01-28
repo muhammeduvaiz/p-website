@@ -1,21 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     background-color: #000000;
-    font-family: Arial, sans-serif;
-    max-width: 500px;
-  
-    padding: 0;
 }
 
 .container {
     height: 500%;
     width: 400%;
-    border: #000000 solid;
 }
 
 .content {
     text-align: center;
     color: #ffffff;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -25,8 +35,9 @@ body {
     transition: 0.6s;
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .bcol {
@@ -39,12 +50,17 @@ body {
     font-size: 18px;
     text-align: center;
     transition: 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .sci {
     display: flex;
     justify-content: center;
     list-style: none;
+    margin-bottom: 100px;
+    margin-left: 70px;
 }
 
 .sci li {
@@ -53,6 +69,7 @@ body {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
+    margin-right: 30px;
     
     
 }
