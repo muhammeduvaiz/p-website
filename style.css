@@ -80,4 +80,5 @@ body {
 
 .sci li:hover {
     background-color: #333333;
+    filter: invert(1);
 }
